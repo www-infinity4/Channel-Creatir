@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="Create synchronized Infinity TV channels from a plain-language channel description and deploy them to GitHub.">
+  <title>Channel Creatir</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Channel Creatir">
+  <meta property="og:description" content="Describe the channel. Generate the files. Deploy it to GitHub and the shared Infinity TV remote.">
+  <meta property="og:url" content="https://www-infinity4.github.io/Channel-Creatir/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www-infinity4.github.io/Channel-Creatir/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Channel Creatir home"><span class="brand-mark">C</span><span>Channel Creatir</span></a>
+    <span class="status-pill">CHANNEL FACTORY</span>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">INFINITY TV · CHANNEL BUILDER</p>
+      <h1>Tell it what the next channel should be.</h1>
+      <p class="lede">Creatir converts a plain-language channel idea into the same synchronized live-channel scaffold, gives you the files to inspect, and can deploy them straight into a GitHub repository.</p>
+    </section>
+
+    <section class="builder-grid">
+      <form id="creatorForm" class="panel input-panel">
+        <div class="panel-heading">
+          <div><p class="eyebrow">CHANNEL BRIEF</p><h2>Describe the station</h2></div>
+          <button id="sampleButton" type="button" class="ghost">Example</button>
+        </div>
+
+        <label for="brief">What should this channel be?</label>
+        <textarea id="brief" rows="10" placeholder="Example: Building Physics TV. It focuses on physics documentaries, demonstrations and full educational episodes. Use 30 and 60 minute slots. Full content only. Change the full schedule at midnight local time, keep everybody synced, leave intermission space for future advertising, and add it to the shared remote."></textarea>
+
+        <div class="split">
+          <label>Channel name<input id="channelName" autocomplete="off" placeholder="Physics TV"></label>
+          <label>Repository<input id="repoName" autocomplete="off" placeholder="Physics-TV"></label>
+        </div>
+
+        <div class="split three">
+          <label>Default slot
+            <select id="slotMinutes">
+              <option value="5">5 minutes</option><option value="15">15 minutes</option><option value="30">30 minutes</option><option value="60">60 minutes</option><option value="120" selected>2 hours</option><option value="180">3 hours</option>
+            </select>
+          </label>
+          <label>Programming
+            <select id="channelType"><option value="movies">Movies / long-form</option><option value="tv">TV / cartoons</option><option value="music">Music videos</option><option value="sports">Sports</option><option value="news">News</option><option value="documentary">Documentary</option><option value="shopping">Shopping</option><option value="mixed">Mixed</option></select>
+          </label>
+          <label>Rotation
+            <select id="rotation"><option value="daily" selected>New daily schedule</option><option value="weekly">New weekly schedule</option><option value="rolling">Rolling live feed</option></select>
+          </label>
+        </div>
+
+        <label for="mediaLines">Media sources <span class="muted">optional now; one per line</span></label>
+        <textarea id="mediaLines" rows="7" spellcheck="false" placeholder="Title | https://youtu.be/VIDEO_ID | 92\nAnother full episode | https://www.youtube.com/watch?v=VIDEO_ID | 48"></textarea>
+        <p class="hint">Creatir only marks a source playable when you supply its full YouTube URL/ID. It does not pretend a search result, trailer, or unavailable video is a full program.</p>
+
+        <details class="github-box">
+          <summary>GitHub deployment</summary>
+          <div class="details-body">
+            <div class="split">
+              <label>Owner<input id="owner" value="www-infinity4" autocomplete="username"></label>
+              <label>GitHub token<input id="githubToken" type="password" autocomplete="off" placeholder="Token used only for this deploy"></label>
+            </div>
+            <p class="hint">The token stays in this browser page's memory and is not saved by Creatir. It needs permission to create/update the target repository; Pages permission is needed for automatic GitHub Pages setup.</p>
+          </div>
+        </details>
+
+        <div class="actions">
+          <button id="generateButton" class="primary" type="submit">Generate channel</button>
+          <button id="deployButton" class="deploy" type="button">Generate + deploy</button>
+        </div>
+      </form>
+
+      <section class="panel output-panel" aria-live="polite">
+        <div class="panel-heading"><div><p class="eyebrow">BUILD OUTPUT</p><h2 id="outputTitle">No channel generated yet</h2></div><span id="buildState" class="build-state">READY</span></div>
+        <div id="summary" class="summary empty">Your parsed channel rules will appear here.</div>
+        <div class="tabs" role="tablist" aria-label="Generated output tabs">
+          <button type="button" class="tab active" data-tab="preview">Preview</button>
+          <button type="button" class="tab" data-tab="files">Files</button>
+          <button type="button" class="tab" data-tab="manifest">Manifest</button>
+        </div>
+        <div class="tab-panel active" data-panel="preview"><iframe id="previewFrame" title="Generated channel preview"></iframe></div>
+        <div class="tab-panel" data-panel="files"><div id="fileList" class="file-list"></div><pre id="fileCode"><code>Select a generated file.</code></pre></div>
+        <div class="tab-panel" data-panel="manifest"><pre id="manifestCode"><code>{}</code></pre></div>
+        <div id="deployLog" class="deploy-log" hidden></div>
+      </section>
+    </section>
+
+    <section class="rules panel">
+      <p class="eyebrow">BUILT-IN CONTRACT</p>
+      <h2>Every generated channel starts with the network rules.</h2>
+      <div class="rule-grid">
+        <article><strong>Live synchronization</strong><span>All viewers resolve the same program from the clock.</span></article>
+        <article><strong>Midnight rollover</strong><span>Daily channels select a fresh deterministic lineup at 12:00 AM local time.</span></article>
+        <article><strong>Full-program catalog</strong><span>Catalog entries need real media IDs and runtimes instead of fake preview placeholders.</span></article>
+        <article><strong>Shared remote</strong><span>Generated pages load Omni Control first and fall back to the current TNT channel list while that master remote is being established.</span></article>
+        <article><strong>Intermission space</strong><span>Unused slot time remains marked for future advertising instead of silently drifting the schedule.</span></article>
+        <article><strong>Share credit hook</strong><span>The scaffold keeps the 1/10 StarCoin share-progress hook used across the channel network.</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><strong>Channel Creatir</strong><span>Describe → generate → inspect → deploy.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
