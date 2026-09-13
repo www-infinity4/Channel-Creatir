@@ -1,1 +1,59 @@
-# Channel-Creatir
+# Channel Creatir
+
+Channel Creatir is the Infinity TV channel factory.
+
+Describe a station in plain language, review the generated channel package, then deploy it into a GitHub repository from the page.
+
+## What it generates
+
+- synchronized live channel page
+- deterministic local-time schedule
+- daily / weekly / rolling rotation modes
+- full-program YouTube catalog file
+- intermission space for future advertising
+- TV guide and next-program cards
+- start over, rewind, and join-live controls
+- share control and shared StarCoin network hook
+- Omni Control remote loader with the current TNT remote as a fallback
+- channel manifest
+- social-preview artwork scaffold
+- GitHub Pages-ready `.nojekyll`
+
+## GitHub deployer
+
+Open the **GitHub deployment** section in the page and enter a GitHub token with permission to create/update the target repository. The token is held only in the active browser page and is not written to localStorage or committed into generated files.
+
+Creatir will:
+
+1. use the requested repository if it exists;
+2. attempt to create it if it does not;
+3. add/update the generated files on `main`;
+4. attempt to enable GitHub Pages from the root of `main`.
+
+If repository creation or Pages administration is not allowed by the token, create the repository first or grant the matching permission and run Deploy again.
+
+## Content integrity
+
+Creatir does **not** invent playable video IDs. A catalog entry becomes playable only when a real YouTube URL/ID is supplied. This is deliberate: a trailer, unavailable embed, age-restricted source, or one-minute preview should not masquerade as a full scheduled program.
+
+Media lines use this format:
+
+```text
+Program title | https://youtu.be/VIDEO_ID | runtime in minutes
+```
+
+## Shared remote
+
+Generated sites try to load:
+
+```text
+https://www-infinity4.github.io/Omni-Control/channels.js
+```
+
+and currently fall back to:
+
+```text
+https://www-infinity4.github.io/TNT/channels.js
+```
+
+This allows the channel factory to work before the canonical Omni Control repository is live, while keeping the generated pages ready to move to that single master remote.
