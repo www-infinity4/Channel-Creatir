@@ -24,6 +24,9 @@ A new channel must therefore be added to the central Control Phi registry instea
 
 - synchronized live channel page
 - deterministic local-time schedule
+- fresh-deck scheduling: each verified program is used once before reuse
+- duplicate-ID rejection and automatic failed-source quarantine
+- deployment coverage gate requiring enough unique programs for every daily slot
 - daily / weekly / rolling rotation modes
 - full-program YouTube catalog file
 - intermission space for future advertising
@@ -50,7 +53,7 @@ If repository creation or Pages administration is not allowed by the token, crea
 
 ## Content integrity
 
-Creatir does **not** invent playable video IDs. A catalog entry becomes playable only when a real YouTube URL/ID is supplied. A trailer, unavailable embed, age-restricted source, or one-minute preview should not masquerade as a full scheduled program.
+Creatir does **not** invent playable video IDs. A catalog entry becomes playable only when a real YouTube URL/ID is supplied. A trailer, unavailable embed, age-restricted source, or one-minute preview should not masquerade as a full scheduled program. Creatir now blocks deployment when the unique verified catalog is smaller than the number of daily slots; the generated runtime also quarantines a failed embed and selects another unused title.
 
 Media lines use this format:
 
