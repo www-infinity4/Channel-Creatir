@@ -4,6 +4,22 @@ Channel Creatir is the Infinity TV channel factory.
 
 Describe a station in plain language, review the generated channel package, then deploy it into a GitHub repository from the page.
 
+## Required scaffold on every generated channel
+
+Every new channel is generated as part of the shared Infinity TV network, not as a standalone menu copy. The page loads **Control Phi** directly and receives the canonical channel registry from `Control-Phi/channels.json`.
+
+The shared scaffold provides:
+
+- a **☰ Channels** hamburger populated from the central Control Phi registry;
+- the Nintendo/Ozzy-style live guide with channel artwork, channel name, and current program title;
+- **Omni TV**, **News Phi**, and **Infinity Phi** navigation;
+- an Infinity Phi **Search the web** field;
+- the shared StarCoin wallet/share hook;
+- News Phi interest signals from completed shares;
+- Cosmo and the shared live-network guide supplied by Control Phi.
+
+A new channel must therefore be added to the central Control Phi registry instead of hard-coding a second channel list inside the new repository.
+
 ## What it generates
 
 - synchronized live channel page
@@ -14,7 +30,7 @@ Describe a station in plain language, review the generated channel package, then
 - TV guide and next-program cards
 - start over, rewind, and join-live controls
 - share control and shared StarCoin network hook
-- Omni Control remote loader with the current TNT remote as a fallback
+- Control Phi shared channel remote and live guide
 - channel manifest
 - social-preview artwork scaffold
 - GitHub Pages-ready `.nojekyll`
@@ -34,7 +50,7 @@ If repository creation or Pages administration is not allowed by the token, crea
 
 ## Content integrity
 
-Creatir does **not** invent playable video IDs. A catalog entry becomes playable only when a real YouTube URL/ID is supplied. This is deliberate: a trailer, unavailable embed, age-restricted source, or one-minute preview should not masquerade as a full scheduled program.
+Creatir does **not** invent playable video IDs. A catalog entry becomes playable only when a real YouTube URL/ID is supplied. A trailer, unavailable embed, age-restricted source, or one-minute preview should not masquerade as a full scheduled program.
 
 Media lines use this format:
 
@@ -44,16 +60,16 @@ Program title | https://youtu.be/VIDEO_ID | runtime in minutes
 
 ## Shared remote
 
-Generated sites try to load:
+Generated sites load:
 
-```text
-https://www-infinity4.github.io/Omni-Control/channels.js
+```html
+<script src="https://www-infinity4.github.io/Control-Phi/control-phi.js"></script>
 ```
 
-and currently fall back to:
+Control Phi then reads the one canonical registry:
 
 ```text
-https://www-infinity4.github.io/TNT/channels.js
+https://www-infinity4.github.io/Control-Phi/channels.json
 ```
 
-This allows the channel factory to work before the canonical Omni Control repository is live, while keeping the generated pages ready to move to that single master remote.
+That registry is the source of truth for the channel hamburger and network guide. There should not be a separately maintained channel list in each generated station.
