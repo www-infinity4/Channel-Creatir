@@ -14,7 +14,7 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 4,
         "channelFits": [
           "HBO",
           "Showtime"
@@ -22,7 +22,16 @@
         "legacyIds": [
           "HBO-SAFE-001",
           "SHO-SAFE-001"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -45,7 +54,7 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 4,
         "channelFits": [
           "HBO",
           "Showtime"
@@ -53,7 +62,16 @@
         "legacyIds": [
           "HBO-SAFE-002",
           "SHO-SAFE-002"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -76,7 +94,7 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 4,
         "channelFits": [
           "HBO",
           "Showtime"
@@ -84,7 +102,16 @@
         "legacyIds": [
           "HBO-SAFE-003",
           "SHO-SAFE-003"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -107,13 +134,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "HBO"
         ],
         "legacyIds": [
           "HBO-SAFE-004"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -136,13 +171,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "HBO"
         ],
         "legacyIds": [
           "HBO-SAFE-005"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -165,7 +208,7 @@
         "adventure"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 4,
         "channelFits": [
           "HBO",
           "Showtime"
@@ -173,7 +216,16 @@
         "legacyIds": [
           "HBO-SAFE-006",
           "SHO-SAFE-004"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -196,13 +248,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "HBO"
         ],
         "legacyIds": [
           "HBO-SAFE-007"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -227,7 +287,7 @@
         "adventure"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 7,
         "channelFits": [
           "Cinemax",
           "Encore"
@@ -235,7 +295,17 @@
         "legacyIds": [
           "MAX-SAFE-001",
           "ENC-SAFE-004"
-        ]
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -258,7 +328,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 7,
         "channelFits": [
           "Cinemax",
           "Encore"
@@ -266,7 +336,17 @@
         "legacyIds": [
           "MAX-SAFE-002",
           "ENC-SAFE-005"
-        ]
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -290,7 +370,7 @@
         "road"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax",
           "Showtime"
@@ -298,7 +378,16 @@
         "legacyIds": [
           "MAX-SAFE-003",
           "SHO-SAFE-006"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -321,13 +410,21 @@
         "adventure"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "Cinemax"
         ],
         "legacyIds": [
           "MAX-SAFE-004"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -350,7 +447,7 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax",
           "Showtime"
@@ -358,7 +455,16 @@
         "legacyIds": [
           "MAX-SAFE-005",
           "SHO-SAFE-005"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -381,13 +487,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "Starz"
         ],
         "legacyIds": [
           "STZ-002"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -415,7 +529,13 @@
         ],
         "legacyIds": [
           "STZ-004"
-        ]
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -444,7 +564,13 @@
         ],
         "legacyIds": [
           "STZ-005"
-        ]
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -472,7 +598,13 @@
         ],
         "legacyIds": [
           "STZ-006"
-        ]
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -494,13 +626,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "Starz"
         ],
         "legacyIds": [
           "STZ-008"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -528,7 +668,13 @@
         ],
         "legacyIds": [
           "STZ-009"
-        ]
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -557,7 +703,13 @@
         ],
         "legacyIds": [
           "STZ-013"
-        ]
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -581,13 +733,22 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 6,
         "channelFits": [
           "Encore"
         ],
         "legacyIds": [
           "ENC-SAFE-001"
-        ]
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 6,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -611,13 +772,22 @@
         "adventure"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 6,
         "channelFits": [
           "Encore"
         ],
         "legacyIds": [
           "ENC-SAFE-002"
-        ]
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 6,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -641,13 +811,22 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 6,
         "channelFits": [
           "Encore"
         ],
         "legacyIds": [
           "ENC-SAFE-003"
-        ]
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 6,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -670,13 +849,21 @@
         "family"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "Hermit"
         ],
         "legacyIds": [
           "MOV-009"
-        ]
+        ],
+        "discoveryReasons": [
+          "seasonal-reuse"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -699,13 +886,22 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 5,
         "channelFits": [
           "Hermit"
         ],
         "legacyIds": [
           "MOV-010"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "seasonal-reuse"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -728,13 +924,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "Hermit"
         ],
         "legacyIds": [
           "MOV-011"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -757,13 +961,21 @@
         "comedy"
       ],
       "attributes": {
-        "baseValue": 1,
+        "baseValue": 3,
         "channelFits": [
           "StarLauncher"
         ],
         "legacyIds": [
           "SL-014"
-        ]
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -786,7 +998,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Hermit TV"
         ],
@@ -795,8 +1007,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -819,7 +1037,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Hermit TV"
         ],
@@ -828,8 +1046,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -852,7 +1076,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Hermit TV"
         ],
@@ -861,8 +1085,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -885,7 +1116,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Hermit TV"
         ],
@@ -894,8 +1125,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -918,7 +1155,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -927,8 +1164,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -951,7 +1195,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -960,8 +1204,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -984,7 +1235,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -993,8 +1244,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1017,7 +1275,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -1026,8 +1284,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1050,7 +1315,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -1059,8 +1324,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1083,7 +1355,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -1092,8 +1364,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1116,7 +1395,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Star Launcher"
         ],
@@ -1125,8 +1404,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1149,7 +1434,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Star Launcher"
         ],
@@ -1158,8 +1443,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1182,7 +1474,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Star Launcher"
         ],
@@ -1191,8 +1483,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1225,7 +1523,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1248,7 +1551,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1257,8 +1560,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1281,7 +1590,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1290,8 +1599,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1324,7 +1639,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1347,7 +1667,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1356,8 +1676,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1380,7 +1706,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1389,8 +1715,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1413,7 +1745,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1422,8 +1754,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1446,7 +1784,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1455,8 +1793,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1479,7 +1823,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1488,8 +1832,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1512,7 +1862,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1521,8 +1871,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1545,7 +1901,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1554,8 +1910,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1578,7 +1940,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "HBO"
         ],
@@ -1587,8 +1949,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1621,7 +1989,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1654,7 +2027,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1677,7 +2055,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Cinemax"
         ],
@@ -1686,8 +2064,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1710,7 +2094,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Cinemax"
         ],
@@ -1719,8 +2103,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1753,7 +2144,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1776,7 +2172,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Cinemax"
         ],
@@ -1785,8 +2181,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1809,7 +2212,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -1818,8 +2221,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1842,7 +2251,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -1851,8 +2260,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1885,7 +2300,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1908,7 +2328,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Cinemax"
         ],
@@ -1917,8 +2337,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1941,7 +2367,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -1950,8 +2376,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -1974,7 +2406,7 @@
         "2000s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -1983,8 +2415,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2017,7 +2455,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2040,7 +2483,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -2049,8 +2492,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2073,7 +2522,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -2082,8 +2531,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2106,7 +2561,7 @@
         "2010s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Cinemax"
         ],
@@ -2115,8 +2570,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2139,7 +2600,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Starz"
         ],
@@ -2148,8 +2609,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2182,7 +2649,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2205,7 +2677,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Starz"
         ],
@@ -2214,8 +2686,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2238,7 +2716,7 @@
         "2020s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 4,
         "channelFits": [
           "Starz"
         ],
@@ -2247,8 +2725,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2281,7 +2765,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2314,7 +2803,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2347,7 +2841,12 @@
         "discoveryReasons": [
           "existing-curated-inventory",
           "catalog-expansion"
-        ]
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2370,7 +2869,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2379,8 +2878,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2403,7 +2909,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2412,8 +2918,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2436,7 +2949,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2445,8 +2958,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2469,7 +2989,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2478,8 +2998,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2502,7 +3029,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Encore"
         ],
@@ -2511,8 +3038,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2535,7 +3068,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2544,8 +3077,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2568,7 +3108,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2577,8 +3117,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2601,7 +3148,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2610,8 +3157,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2634,7 +3188,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2643,8 +3197,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2667,7 +3228,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2676,8 +3237,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2700,7 +3268,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2709,8 +3277,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2733,7 +3308,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 7,
         "channelFits": [
           "Encore"
         ],
@@ -2742,8 +3317,15 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2766,7 +3348,7 @@
         "1990s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Encore"
         ],
@@ -2775,8 +3357,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
@@ -2799,7 +3387,7 @@
         "1980s"
       ],
       "attributes": {
-        "baseValue": 2,
+        "baseValue": 5,
         "channelFits": [
           "Encore"
         ],
@@ -2808,8 +3396,14 @@
         ],
         "discoveryReasons": [
           "existing-curated-inventory",
-          "catalog-expansion"
-        ]
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
       },
       "sources": [
         {
