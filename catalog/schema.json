@@ -1,0 +1,22 @@
+{
+  "schema": "infinity-program-catalog-v1",
+  "description": "Shared Channel-Creatir catalog. Catalog metadata is persistent; playable sources may change independently.",
+  "required": [
+    "id",
+    "title",
+    "type",
+    "runtimeMinutes",
+    "tags",
+    "sources"
+  ],
+  "fields": {
+    "id": "stable catalog id",
+    "title": "program title",
+    "type": "movie|cartoon|tv|fight|music|documentary|other",
+    "year": "release year",
+    "runtimeMinutes": "runtime",
+    "tags": "genre/theme/era/season/franchise tags",
+    "attributes": "programming facts and discovery signals",
+    "sources": "playback candidates with provider, sourceId/url, status and lastVerifiedAt"
+  }
+}
