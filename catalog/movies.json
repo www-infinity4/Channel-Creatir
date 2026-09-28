@@ -1,7 +1,3420 @@
 {
   "schema": "infinity-program-catalog-v1",
-  "pool": "new",
-  "generatedFrom": "newly verified programming discovery only",
-  "note": "Brand-new programming pool. Do not seed from prior channel catalogs. Add only genuinely new-to-rotation titles after history and source checks.",
-  "programs": []
+  "generatedFrom": "existing connected channel catalogs",
+  "note": "Compatibility catalog for currently deployed Cloudflare scheduler. Previous rotation is archived separately; remove this compatibility feed only after Worker selects explicit pools and new schedule has sufficient verified programming.",
+  "programs": [
+    {
+      "id": "MOV-0001",
+      "title": "Daddy Daughter Trip",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 97,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-001",
+          "SHO-SAFE-001"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fIhM9MiEN50",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0002",
+      "title": "Mayberry Man",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-002",
+          "SHO-SAFE-002"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "a_AwfI9TPY8",
+          "status": "playable",
+          "sourceLabel": "EncourageTV",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0003",
+      "title": "Accidental Family",
+      "year": 2021,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "romance",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-003",
+          "SHO-SAFE-003"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "XH63ZMpgsAk",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0004",
+      "title": "Pretty Outrageous",
+      "year": 2017,
+      "type": "movie",
+      "runtimeMinutes": 76,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-004"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "wbzh-m3cCmc",
+          "status": "playable",
+          "sourceLabel": "Family Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0005",
+      "title": "Opposite Day",
+      "year": 2009,
+      "type": "movie",
+      "runtimeMinutes": 81,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-005"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "M18tKPAGlJ4",
+          "status": "playable",
+          "sourceLabel": "Girls Night In Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0006",
+      "title": "Stinky Summer",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 91,
+      "tags": [
+        "family",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-006",
+          "SHO-SAFE-004"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Gxa3gWpVPes",
+          "status": "playable",
+          "sourceLabel": "Family Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0007",
+      "title": "Cleaver Family Reunion",
+      "year": 2013,
+      "type": "movie",
+      "runtimeMinutes": 91,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-007"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "r7urqvC_avI",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0008",
+      "title": "Black Fox",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 92,
+      "tags": [
+        "western",
+        "action",
+        "1990s",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Cinemax",
+          "Encore"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-001",
+          "ENC-SAFE-004"
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "GI2TFFWrBlc",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0009",
+      "title": "Chairman of the Board",
+      "year": 1998,
+      "type": "movie",
+      "runtimeMinutes": 96,
+      "tags": [
+        "comedy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Cinemax",
+          "Encore"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-002",
+          "ENC-SAFE-005"
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "jse-_ROi4sI",
+          "status": "playable",
+          "sourceLabel": "Ordinary full-length YouTube upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0010",
+      "title": "Moving McAllister",
+      "year": 2007,
+      "type": "movie",
+      "runtimeMinutes": 89,
+      "tags": [
+        "adventure",
+        "comedy",
+        "road"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-003",
+          "SHO-SAFE-006"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "mVZOMXWsExs",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0011",
+      "title": "Khumba",
+      "year": 2013,
+      "type": "movie",
+      "runtimeMinutes": 85,
+      "tags": [
+        "animation",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-004"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "tf7sVfOjWYU",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0012",
+      "title": "Runs in the Family",
+      "year": 2023,
+      "type": "movie",
+      "runtimeMinutes": 105,
+      "tags": [
+        "adventure",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-005",
+          "SHO-SAFE-005"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "multi-channel-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AuwUwN1JVec",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0013",
+      "title": "Daddy's Divas",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 213,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-002"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "3b9cORpA3cY",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0014",
+      "title": "A Mother's Hope",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 118,
+      "tags": [
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-004"
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "8R7FmuaFNf0",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0015",
+      "title": "Fated",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 93,
+      "tags": [
+        "romance",
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-005"
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "BGRnVRpEjAA",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0016",
+      "title": "Player",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 88,
+      "tags": [
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-006"
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "QgFP4kkx9OQ",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0017",
+      "title": "Amy's F It List",
+      "year": 2023,
+      "type": "movie",
+      "runtimeMinutes": 79,
+      "tags": [
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-008"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "bMXEcbmkr9w",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0018",
+      "title": "Wrong Numbers",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-009"
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "f2jpuJpXJM4",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0019",
+      "title": "Sincerity",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 86,
+      "tags": [
+        "faith",
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-013"
+        ],
+        "discoveryReasons": [],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 1,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "pG0w4nzq3nA",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0020",
+      "title": "Super Fuzz",
+      "year": 1980,
+      "type": "movie",
+      "runtimeMinutes": 100,
+      "tags": [
+        "1980s",
+        "action",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 6,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-SAFE-001"
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 6,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "V9Fh3jqMZTk",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0021",
+      "title": "Ator: The Fighting Eagle",
+      "year": 1982,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "1980s",
+        "fantasy",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 6,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-SAFE-002"
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 6,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "6wRznqH9IbA",
+          "status": "playable",
+          "sourceLabel": "TheArchiveMovies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0022",
+      "title": "Earth Angel",
+      "year": 1991,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "1990s",
+        "fantasy",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 6,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-SAFE-003"
+        ],
+        "discoveryReasons": [
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 6,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "jXwC-6tlKqY",
+          "status": "playable",
+          "sourceLabel": "TheArchiveMovies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0023",
+      "title": "The Santa Trap",
+      "year": 2002,
+      "type": "movie",
+      "runtimeMinutes": 88,
+      "tags": [
+        "christmas",
+        "family"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "Hermit"
+        ],
+        "legacyIds": [
+          "MOV-009"
+        ],
+        "discoveryReasons": [
+          "seasonal-reuse"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "GJytAtSuEew",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0024",
+      "title": "A Christmas Karen",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "christmas",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Hermit"
+        ],
+        "legacyIds": [
+          "MOV-010"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit",
+          "seasonal-reuse"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "6nJ8n3MIiZY",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0025",
+      "title": "A Room to Share",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "romance",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "Hermit"
+        ],
+        "legacyIds": [
+          "MOV-011"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "8s7XqNWiTrw",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0026",
+      "title": "Bob the Butler",
+      "year": 2005,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 3,
+        "channelFits": [
+          "StarLauncher"
+        ],
+        "legacyIds": [
+          "SL-014"
+        ],
+        "discoveryReasons": [
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 3,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "vLRK63m0m7Y",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0027",
+      "title": "Galaxy of Terror",
+      "year": 1981,
+      "type": "movie",
+      "runtimeMinutes": 81,
+      "tags": [
+        "deep space after dark",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Hermit TV"
+        ],
+        "legacyIds": [
+          "MOV-003"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "JpRsqqGMFdE",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0028",
+      "title": "Paper Man",
+      "year": 2009,
+      "type": "movie",
+      "runtimeMinutes": 110,
+      "tags": [
+        "superhero comedy",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Hermit TV"
+        ],
+        "legacyIds": [
+          "MOV-014"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "BDdyKWZrdng",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0029",
+      "title": "Breakfast of Champions",
+      "year": 1999,
+      "type": "movie",
+      "runtimeMinutes": 110,
+      "tags": [
+        "offbeat comedy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Hermit TV"
+        ],
+        "legacyIds": [
+          "MOV-015"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uW9hO6pwjEs",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0030",
+      "title": "Get Well Soon",
+      "year": 2001,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "comedy night",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Hermit TV"
+        ],
+        "legacyIds": [
+          "MOV-016"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "caB-B9ae1jQ",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0031",
+      "title": "Chopping Mall",
+      "year": 1986,
+      "type": "movie",
+      "runtimeMinutes": 77,
+      "tags": [
+        "80s cult sci-fi",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-002"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "MglLwua-PLI",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0032",
+      "title": "Far Out Man",
+      "year": 1990,
+      "type": "movie",
+      "runtimeMinutes": 81,
+      "tags": [
+        "tommy chong comedy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-003"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "rMl0rNThC6A",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0033",
+      "title": "No Contest",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "90s action",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-005"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "KR2GQycoFFI",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0034",
+      "title": "Fatal Combat",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 92,
+      "tags": [
+        "90s arcade action",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-006"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "0NOa-byFHaw",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0035",
+      "title": "Hologram Man",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "90s sci-fi action",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-007"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "FUO7e0E79Gk",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0036",
+      "title": "The Misery Brothers",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 93,
+      "tags": [
+        "90s comedy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-008"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Qy4rFtQti-M",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0037",
+      "title": "Hotel Sorrento",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 110,
+      "tags": [
+        "90s drama",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-009"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "IxGqHo8vqek",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0038",
+      "title": "Chairman of the Board",
+      "year": 1998,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "carrot top comedy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-010"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "RvdAMAZT1KQ",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0039",
+      "title": "Eulogy",
+      "year": 2004,
+      "type": "movie",
+      "runtimeMinutes": 91,
+      "tags": [
+        "all-star comedy",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Star Launcher"
+        ],
+        "legacyIds": [
+          "SL-013"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AY2jJ63ZB7k",
+          "status": "playable",
+          "sourceLabel": "Existing curated YouTube source",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0040",
+      "title": "Serenity",
+      "year": 2005,
+      "type": "movie",
+      "runtimeMinutes": 119,
+      "tags": [
+        "space epic",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-001"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "WPXS9UtDmyQ",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0041",
+      "title": "Mean Girls",
+      "year": 2004,
+      "type": "movie",
+      "runtimeMinutes": 97,
+      "tags": [
+        "modern comedy classic",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-002"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "HPkDFc8hq5c",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0042",
+      "title": "Honest Thief",
+      "year": 2020,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "prime-time action",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-003"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "BqluXcZ9RyU",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0043",
+      "title": "World Trade Center",
+      "year": 2006,
+      "type": "movie",
+      "runtimeMinutes": 129,
+      "tags": [
+        "prestige drama",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-004"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "KVk4ATEGb8Q",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0044",
+      "title": "Skyline",
+      "year": 2010,
+      "type": "movie",
+      "runtimeMinutes": 94,
+      "tags": [
+        "science-fiction event",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-005"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "DXf-NpZuCZ8",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0045",
+      "title": "Blitz",
+      "year": 2011,
+      "type": "movie",
+      "runtimeMinutes": 97,
+      "tags": [
+        "after-hours action",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-006"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "EMvIgNcej-w",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0046",
+      "title": "Alone",
+      "year": 2020,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "survival thriller",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-007"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "69C1s6oMs64",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0047",
+      "title": "Beyond a Reasonable Doubt",
+      "year": 2009,
+      "type": "movie",
+      "runtimeMinutes": 106,
+      "tags": [
+        "courtroom thriller",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-008"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "L9AQELWJkFA",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0048",
+      "title": "Are You Here",
+      "year": 2013,
+      "type": "movie",
+      "runtimeMinutes": 114,
+      "tags": [
+        "comedy drama",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-009"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "6f2YlLBqclo",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0049",
+      "title": "Mad Families",
+      "year": 2017,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "weekend comedy",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-010"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "8jyuUeCiWEk",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0050",
+      "title": "The Fanatic",
+      "year": 2019,
+      "type": "movie",
+      "runtimeMinutes": 88,
+      "tags": [
+        "midnight thriller",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-011"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "9YcPkigDdqw",
+          "status": "playable",
+          "sourceLabel": "Quiver Distribution",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0051",
+      "title": "Bromates",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 97,
+      "tags": [
+        "late-night comedy",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-012"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "MTjKBwIhJ20",
+          "status": "playable",
+          "sourceLabel": "Quiver Distribution",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0052",
+      "title": "The Presence",
+      "year": 2010,
+      "type": "movie",
+      "runtimeMinutes": 102,
+      "tags": [
+        "supernatural sunday",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-013"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "PsuWXuhy2VU",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0053",
+      "title": "Monsters of Man",
+      "year": 2020,
+      "type": "movie",
+      "runtimeMinutes": 132,
+      "tags": [
+        "future shock",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-014"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "VZQmj6bH5cY",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0054",
+      "title": "Sneakers",
+      "year": 1992,
+      "type": "movie",
+      "runtimeMinutes": 126,
+      "tags": [
+        "tech caper",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-001"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Qy9XYQBBIJ4",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0055",
+      "title": "Stargate",
+      "year": 1994,
+      "type": "movie",
+      "runtimeMinutes": 122,
+      "tags": [
+        "science-fiction adventure",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-002"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "lsuY5dYxOCs",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0056",
+      "title": "Crouching Tiger, Hidden Dragon",
+      "year": 2000,
+      "type": "movie",
+      "runtimeMinutes": 121,
+      "tags": [
+        "martial-arts epic",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-003"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "SAGdBlJrMSA",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0057",
+      "title": "Clueless",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "modern comedy classic",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-004"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fajG1C0xj9c",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0058",
+      "title": "The Longest Yard",
+      "year": 2005,
+      "type": "movie",
+      "runtimeMinutes": 114,
+      "tags": [
+        "sports action comedy",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-005"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uGJv_zSRiR0",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0059",
+      "title": "Wanted",
+      "year": 2008,
+      "type": "movie",
+      "runtimeMinutes": 110,
+      "tags": [
+        "high-impact action",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-006"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "bdEqvgVSI2Y",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0060",
+      "title": "Zodiac",
+      "year": 2007,
+      "type": "movie",
+      "runtimeMinutes": 158,
+      "tags": [
+        "crime investigation",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-007"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ZNOHCuF1Vns",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0061",
+      "title": "Payback",
+      "year": 1999,
+      "type": "movie",
+      "runtimeMinutes": 87,
+      "tags": [
+        "neo-noir crime",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-008"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "naG_MI5dsbo",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0062",
+      "title": "Ava",
+      "year": 2020,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "assassin thriller",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-009"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "CvZC1dy3LsQ",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0063",
+      "title": "Assault on Precinct 13",
+      "year": 2005,
+      "type": "movie",
+      "runtimeMinutes": 109,
+      "tags": [
+        "siege thriller",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-010"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "mKqIlKhS0YE",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0064",
+      "title": "The Fog",
+      "year": 2005,
+      "type": "movie",
+      "runtimeMinutes": 100,
+      "tags": [
+        "supernatural after dark",
+        "2000s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-011"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "J2UYk9HPz28",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0065",
+      "title": "Survivor",
+      "year": 2015,
+      "type": "movie",
+      "runtimeMinutes": 97,
+      "tags": [
+        "conspiracy action",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-012"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fzfMsnqD-yM",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0066",
+      "title": "Rage",
+      "year": 2014,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "revenge thriller",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-013"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "_MRTR3VGhfc",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0067",
+      "title": "Stephen King's A Good Marriage",
+      "year": 2014,
+      "type": "movie",
+      "runtimeMinutes": 102,
+      "tags": [
+        "psychological thriller",
+        "2010s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-014"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "VGW1ShX2_hU",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0068",
+      "title": "The Seeds",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 113,
+      "tags": [
+        "supernatural thriller",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-001"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "-KP8vE35DkU",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0069",
+      "title": "Deadly Obsession 2",
+      "year": 2026,
+      "type": "movie",
+      "runtimeMinutes": 85,
+      "tags": [
+        "suspense premiere",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-003"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "46E8wrlfeus",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0070",
+      "title": "Fright",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 81,
+      "tags": [
+        "after-dark horror",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-007"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "XvdxnvOsy4U",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0071",
+      "title": "Deadly Obsession",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "thriller premiere",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 4,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-010"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 4,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fGs8GqQbuyI",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0072",
+      "title": "Feet of Death",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 107,
+      "tags": [
+        "creature feature",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-011"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "jJ8ZLaJmpmQ",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0073",
+      "title": "The Whip",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 82,
+      "tags": [
+        "modern heist",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-012"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "vboUAIibXPo",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0074",
+      "title": "Unraveled",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 83,
+      "tags": [
+        "love and revenge",
+        "2020s"
+      ],
+      "attributes": {
+        "baseValue": 2,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-014"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 2,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "wfMT-N2pqQA",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0075",
+      "title": "Masters of the Universe",
+      "year": 1987,
+      "type": "movie",
+      "runtimeMinutes": 106,
+      "tags": [
+        "fantasy adventure",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-001"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "NTG2PESRurY",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0076",
+      "title": "UHF",
+      "year": 1989,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "cult comedy",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-002"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uAiyO8oEG4E",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0077",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "type": "movie",
+      "runtimeMinutes": 137,
+      "tags": [
+        "action event",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-003"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AmfdVc_QMbA",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0078",
+      "title": "RoboCop",
+      "year": 1987,
+      "type": "movie",
+      "runtimeMinutes": 104,
+      "tags": [
+        "robot action classic",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-004"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ZHv_r0DfkD4",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0079",
+      "title": "The Karate Kid",
+      "year": 1984,
+      "type": "movie",
+      "runtimeMinutes": 127,
+      "tags": [
+        "feel-good classic",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-005"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "-slifyirmX0",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0080",
+      "title": "The Dark Crystal",
+      "year": 1982,
+      "type": "movie",
+      "runtimeMinutes": 94,
+      "tags": [
+        "fantasy world",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-006"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "4XMRm9igLGo",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0081",
+      "title": "Labyrinth",
+      "year": 1986,
+      "type": "movie",
+      "runtimeMinutes": 102,
+      "tags": [
+        "fantasy adventure",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-007"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "lL_Q0VtrTxU",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0082",
+      "title": "Bill & Ted's Excellent Adventure",
+      "year": 1989,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "time-travel comedy",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-008"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "a72W8hP9QNE",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0083",
+      "title": "Bill & Ted's Bogus Journey",
+      "year": 1991,
+      "type": "movie",
+      "runtimeMinutes": 94,
+      "tags": [
+        "afterlife adventure",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-009"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "2nwyLnPj6SI",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0084",
+      "title": "Highlander: The Final Dimension",
+      "year": 1994,
+      "type": "movie",
+      "runtimeMinutes": 100,
+      "tags": [
+        "immortal action",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-010"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "-RaNjt3NJw8",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0085",
+      "title": "Waiting for Guffman",
+      "year": 1996,
+      "type": "movie",
+      "runtimeMinutes": 84,
+      "tags": [
+        "comedy favorite",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-011"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "9mdSMAmzo34",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0086",
+      "title": "Return of the Living Dead Part II",
+      "year": 1988,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "horror comedy",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 7,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-012"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s",
+          "strong-channel-programming-fit"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 7,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "J-52ztSF-8A",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0087",
+      "title": "Michael Collins",
+      "year": 1996,
+      "type": "movie",
+      "runtimeMinutes": 133,
+      "tags": [
+        "epic drama",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-013"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "KMwQDqiHCAQ",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0088",
+      "title": "Deathtrap",
+      "year": 1982,
+      "type": "movie",
+      "runtimeMinutes": 117,
+      "tags": [
+        "mystery classic",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 5,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-014"
+        ],
+        "discoveryReasons": [
+          "existing-curated-inventory",
+          "catalog-expansion",
+          "target-era-1980s-1990s"
+        ],
+        "grader": {
+          "version": "discovery-v1",
+          "score": 5,
+          "principle": "worth-broadcasting-not-popularity"
+        }
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "t9w1izfm9qI",
+          "status": "verify",
+          "sourceLabel": "YouTube Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    }
+  ],
+  "pool": "previous"
 }
