@@ -1,0 +1,586 @@
+{
+  "schema": "infinity-program-catalog-v1",
+  "generatedFrom": "BET/data/catalog.js",
+  "programs": [
+    {
+      "id": "BET-001",
+      "title": "Michael Jordan — 1998 Finals Game 6: The Last Shot",
+      "year": 1998,
+      "type": "sports",
+      "runtimeMinutes": 117,
+      "tags": [
+        "bet",
+        "basketball",
+        "nba classic · chicago bulls"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "jordan-last-shot-1998",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "92fLApYaCGI",
+          "status": "playable",
+          "sourceLabel": "NBA",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-002",
+      "title": "Michael Jordan Drops 55 at Madison Square Garden — Bulls vs Knicks",
+      "year": 1995,
+      "type": "sports",
+      "runtimeMinutes": 117,
+      "tags": [
+        "bet",
+        "basketball",
+        "nba classic · chicago bulls"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "jordan-55-msg",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "lO2yOETR2jQ",
+          "status": "playable",
+          "sourceLabel": "NBA",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-003",
+      "title": "Allen Iverson 60-Point Classic — 76ers vs Magic",
+      "year": 2005,
+      "type": "sports",
+      "runtimeMinutes": 101,
+      "tags": [
+        "bet",
+        "basketball",
+        "nba classic · allen iverson"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "iverson-60",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "nayC5nSm8Eo",
+          "status": "playable",
+          "sourceLabel": "NBA",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-004",
+      "title": "Michael Jordan vs Kobe Bryant — Bulls vs Lakers Classic",
+      "year": 1997,
+      "type": "sports",
+      "runtimeMinutes": 120,
+      "tags": [
+        "bet",
+        "basketball",
+        "nba classic"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "jordan-kobe-1997",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "qdr-ne7UNTo",
+          "status": "playable",
+          "sourceLabel": "NBA archive",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-005",
+      "title": "Muhammad Ali vs Richard Dunn — Full Fight",
+      "year": 1976,
+      "type": "fight",
+      "runtimeMinutes": 55,
+      "tags": [
+        "bet",
+        "boxing",
+        "championship boxing · muhammad ali"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "ali-dunn",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "WcrnAUTEHlc",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-006",
+      "title": "Sugar Ray Leonard vs Marvin Hagler — Full Fight",
+      "year": 1987,
+      "type": "fight",
+      "runtimeMinutes": 46,
+      "tags": [
+        "bet",
+        "boxing",
+        "championship boxing"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "hagler-leonard",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "zH1U1jC0Lgc",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-007",
+      "title": "George Foreman vs Joe Frazier I — Full Fight",
+      "year": 1973,
+      "type": "fight",
+      "runtimeMinutes": 45,
+      "tags": [
+        "bet",
+        "boxing",
+        "heavyweight classics"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "foreman-frazier",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "vkflIMkS23k",
+          "status": "playable",
+          "sourceLabel": "ESPN Throwback",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-008",
+      "title": "Roy Jones Jr. vs James Toney — Full Fight Replay",
+      "year": 1994,
+      "type": "fight",
+      "runtimeMinutes": 70,
+      "tags": [
+        "bet",
+        "boxing",
+        "boxing classics"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "roy-jones-toney",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "V-tkMTHp0t4",
+          "status": "playable",
+          "sourceLabel": "TNT Sports Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-009",
+      "title": "Floyd Mayweather vs Zab Judah — Full Fight",
+      "year": 2006,
+      "type": "fight",
+      "runtimeMinutes": 75,
+      "tags": [
+        "bet",
+        "boxing",
+        "boxing classics · no commentary"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "mayweather-judah",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Hivpd15aiQ4",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-010",
+      "title": "Thomas Hearns vs Randy Shields — Full Fight",
+      "year": 1986,
+      "type": "fight",
+      "runtimeMinutes": 70,
+      "tags": [
+        "bet",
+        "boxing",
+        "boxing classics"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "hearns-shields",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "vN6TICQbuWE",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-011",
+      "title": "Muhammad Ali vs Leon Spinks — The Entire Saga",
+      "year": 1978,
+      "type": "fight",
+      "runtimeMinutes": 99,
+      "tags": [
+        "bet",
+        "boxing",
+        "heavyweight classics"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "ali-spinks-saga",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "LzQf5lb4gbg",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-012",
+      "title": "Manny Pacquiao vs Timothy Bradley III — Full Experience",
+      "year": 2016,
+      "type": "fight",
+      "runtimeMinutes": 115,
+      "tags": [
+        "bet",
+        "boxing",
+        "boxing classics"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "pacquiao-bradley",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "XkEg78SfKcg",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-013",
+      "title": "Abdullah Mason vs Jeremia Nakathila — Full Fight",
+      "year": 2025,
+      "type": "fight",
+      "runtimeMinutes": 60,
+      "tags": [
+        "bet",
+        "boxing",
+        "modern boxing"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "mason-nakathila",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "VZ73C6RwPnI",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-014",
+      "title": "Abdullah Mason — Two Hours of Knockouts",
+      "year": 2026,
+      "type": "fight",
+      "runtimeMinutes": 120,
+      "tags": [
+        "bet",
+        "boxing",
+        "modern boxing marathon"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "mason-ko-marathon",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Ma-WasvTXVw",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-015",
+      "title": "Terence ‘Bud’ Crawford — Fight Marathon",
+      "year": 2026,
+      "type": "fight",
+      "runtimeMinutes": 120,
+      "tags": [
+        "bet",
+        "boxing",
+        "modern boxing marathon"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "crawford-marathon",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fIO9N3nsMXY",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-016",
+      "title": "BET Hip Hop Awards — Best Performances Marathon",
+      "year": 2021,
+      "type": "music",
+      "runtimeMinutes": 120,
+      "tags": [
+        "bet",
+        "music",
+        "bet music · performance marathon"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "bet-hiphop-marathon-a",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ANk6LohdPc0",
+          "status": "playable",
+          "sourceLabel": "BETNetworks",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-017",
+      "title": "BET Hip Hop Awards — Best Performances Marathon, Part II",
+      "year": 2021,
+      "type": "music",
+      "runtimeMinutes": 120,
+      "tags": [
+        "bet",
+        "music",
+        "bet music · performance marathon"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "bet-hiphop-marathon-b",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 7200
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ANk6LohdPc0",
+          "status": "playable",
+          "sourceLabel": "BETNetworks",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-018",
+      "title": "BET Hip Hop Awards — Best Performances Marathon, Part III",
+      "year": 2021,
+      "type": "music",
+      "runtimeMinutes": 120,
+      "tags": [
+        "bet",
+        "music",
+        "bet music · performance marathon"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "bet-hiphop-marathon-c",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 14400
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ANk6LohdPc0",
+          "status": "playable",
+          "sourceLabel": "BETNetworks",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-019",
+      "title": "BET Awards 2026 — Red Carpet Live",
+      "year": 2026,
+      "type": "sports",
+      "runtimeMinutes": 90,
+      "tags": [
+        "bet",
+        "culture",
+        "bet awards · culture"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "bet-awards-2026-red-carpet",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "oVFvCNFYGFM",
+          "status": "playable",
+          "sourceLabel": "BETNetworks",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "BET-020",
+      "title": "Mike Tyson Spotlight — Young Tyson Unleashed",
+      "year": 1980,
+      "type": "fight",
+      "runtimeMinutes": 20,
+      "tags": [
+        "bet",
+        "boxing",
+        "heavyweight spotlight"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "legacyId": "tyson-spotlight",
+        "channelFits": [
+          "BET"
+        ],
+        "sourceStartSeconds": 0
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Iyg9nWjoD-s",
+          "status": "playable",
+          "sourceLabel": "Top Rank Boxing",
+          "lastVerifiedAt": null
+        }
+      ]
+    }
+  ]
+}
