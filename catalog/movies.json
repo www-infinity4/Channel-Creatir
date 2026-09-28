@@ -1,0 +1,779 @@
+{
+  "schema": "infinity-program-catalog-v1",
+  "generatedFrom": "existing connected channel catalogs",
+  "note": "Source status migrated from checked-in channel catalogs; availability remains subject to resolver re-verification.",
+  "programs": [
+    {
+      "id": "MOV-0001",
+      "title": "Daddy Daughter Trip",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 97,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-001",
+          "SHO-SAFE-001"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fIhM9MiEN50",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0002",
+      "title": "Mayberry Man",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-002",
+          "SHO-SAFE-002"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "a_AwfI9TPY8",
+          "status": "playable",
+          "sourceLabel": "EncourageTV",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0003",
+      "title": "Accidental Family",
+      "year": 2021,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "romance",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-003",
+          "SHO-SAFE-003"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "XH63ZMpgsAk",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0004",
+      "title": "Pretty Outrageous",
+      "year": 2017,
+      "type": "movie",
+      "runtimeMinutes": 76,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-004"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "wbzh-m3cCmc",
+          "status": "playable",
+          "sourceLabel": "Family Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0005",
+      "title": "Opposite Day",
+      "year": 2009,
+      "type": "movie",
+      "runtimeMinutes": 81,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-005"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "M18tKPAGlJ4",
+          "status": "playable",
+          "sourceLabel": "Girls Night In Movies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0006",
+      "title": "Stinky Summer",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 91,
+      "tags": [
+        "family",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-006",
+          "SHO-SAFE-004"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Gxa3gWpVPes",
+          "status": "playable",
+          "sourceLabel": "Family Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0007",
+      "title": "Cleaver Family Reunion",
+      "year": 2013,
+      "type": "movie",
+      "runtimeMinutes": 91,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "HBO"
+        ],
+        "legacyIds": [
+          "HBO-SAFE-007"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "r7urqvC_avI",
+          "status": "playable",
+          "sourceLabel": "Movie Central",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0008",
+      "title": "Black Fox",
+      "year": 1995,
+      "type": "movie",
+      "runtimeMinutes": 92,
+      "tags": [
+        "western",
+        "action",
+        "1990s",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Cinemax",
+          "Encore"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-001",
+          "ENC-SAFE-004"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "GI2TFFWrBlc",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0009",
+      "title": "Chairman of the Board",
+      "year": 1998,
+      "type": "movie",
+      "runtimeMinutes": 96,
+      "tags": [
+        "comedy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Cinemax",
+          "Encore"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-002",
+          "ENC-SAFE-005"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "jse-_ROi4sI",
+          "status": "playable",
+          "sourceLabel": "Ordinary full-length YouTube upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0010",
+      "title": "Moving McAllister",
+      "year": 2007,
+      "type": "movie",
+      "runtimeMinutes": 89,
+      "tags": [
+        "adventure",
+        "comedy",
+        "road"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Cinemax",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-003",
+          "SHO-SAFE-006"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "mVZOMXWsExs",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0011",
+      "title": "Khumba",
+      "year": 2013,
+      "type": "movie",
+      "runtimeMinutes": 85,
+      "tags": [
+        "animation",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Cinemax"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-004"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "tf7sVfOjWYU",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0012",
+      "title": "Runs in the Family",
+      "year": 2023,
+      "type": "movie",
+      "runtimeMinutes": 105,
+      "tags": [
+        "adventure",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Cinemax",
+          "Showtime"
+        ],
+        "legacyIds": [
+          "MAX-SAFE-005",
+          "SHO-SAFE-005"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AuwUwN1JVec",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0013",
+      "title": "Daddy's Divas",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 213,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-002"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "3b9cORpA3cY",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0014",
+      "title": "A Mother's Hope",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 118,
+      "tags": [
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-004"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "8R7FmuaFNf0",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0015",
+      "title": "Fated",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 93,
+      "tags": [
+        "romance",
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-005"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "BGRnVRpEjAA",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0016",
+      "title": "Player",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 88,
+      "tags": [
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-006"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "QgFP4kkx9OQ",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0017",
+      "title": "Amy's F It List",
+      "year": 2023,
+      "type": "movie",
+      "runtimeMinutes": 79,
+      "tags": [
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-008"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "bMXEcbmkr9w",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0018",
+      "title": "Wrong Numbers",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-009"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "f2jpuJpXJM4",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0019",
+      "title": "Sincerity",
+      "year": 2025,
+      "type": "movie",
+      "runtimeMinutes": 86,
+      "tags": [
+        "faith",
+        "drama"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Starz"
+        ],
+        "legacyIds": [
+          "STZ-013"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "pG0w4nzq3nA",
+          "status": "playable",
+          "sourceLabel": "Indie Rights",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0020",
+      "title": "Super Fuzz",
+      "year": 1980,
+      "type": "movie",
+      "runtimeMinutes": 100,
+      "tags": [
+        "1980s",
+        "action",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-SAFE-001"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "V9Fh3jqMZTk",
+          "status": "playable",
+          "sourceLabel": "Established full-length upload",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0021",
+      "title": "Ator: The Fighting Eagle",
+      "year": 1982,
+      "type": "movie",
+      "runtimeMinutes": 98,
+      "tags": [
+        "1980s",
+        "fantasy",
+        "adventure"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-SAFE-002"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "6wRznqH9IbA",
+          "status": "playable",
+          "sourceLabel": "TheArchiveMovies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0022",
+      "title": "Earth Angel",
+      "year": 1991,
+      "type": "movie",
+      "runtimeMinutes": 95,
+      "tags": [
+        "1990s",
+        "fantasy",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Encore"
+        ],
+        "legacyIds": [
+          "ENC-SAFE-003"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "jXwC-6tlKqY",
+          "status": "playable",
+          "sourceLabel": "TheArchiveMovies",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0023",
+      "title": "The Santa Trap",
+      "year": 2002,
+      "type": "movie",
+      "runtimeMinutes": 88,
+      "tags": [
+        "christmas",
+        "family"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Hermit"
+        ],
+        "legacyIds": [
+          "MOV-009"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "GJytAtSuEew",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0024",
+      "title": "A Christmas Karen",
+      "year": 2022,
+      "type": "movie",
+      "runtimeMinutes": 99,
+      "tags": [
+        "christmas",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Hermit"
+        ],
+        "legacyIds": [
+          "MOV-010"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "6nJ8n3MIiZY",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0025",
+      "title": "A Room to Share",
+      "year": 2024,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "romance",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "Hermit"
+        ],
+        "legacyIds": [
+          "MOV-011"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "8s7XqNWiTrw",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "MOV-0026",
+      "title": "Bob the Butler",
+      "year": 2005,
+      "type": "movie",
+      "runtimeMinutes": 90,
+      "tags": [
+        "family",
+        "comedy"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "channelFits": [
+          "StarLauncher"
+        ],
+        "legacyIds": [
+          "SL-014"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "vLRK63m0m7Y",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    }
+  ]
+}
