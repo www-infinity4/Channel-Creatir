@@ -1,0 +1,1406 @@
+{
+  "schema": "infinity-program-catalog-v1",
+  "generatedFrom": "Cartoon-Network/data/catalog.js",
+  "programs": [
+    {
+      "id": "CN-001",
+      "title": "Volcano Island",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ysknP4biyyk",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-002",
+      "title": "Luxury Cruise Jewels Rescue!",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "QUdwG9h74QM",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-003",
+      "title": "Gadget's Replacement",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "7OwwiHHFZX4",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-004",
+      "title": "Funny Money",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "UqTzJpTwFFc",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-005",
+      "title": "Amusement Park",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "r9prNsqs-yQ",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-006",
+      "title": "A Bad Altitude",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "jZ5vTfauv3M",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-007",
+      "title": "Snakin' All Over",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "gyefry5JVW0",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-008",
+      "title": "The Infiltration",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "rJKht7IY-Xg",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-009",
+      "title": "Dry Spell",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "inspector gadget",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Inspector Gadget",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "NfD0Y8q8LFs",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-010",
+      "title": "Hunt for He-Man",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ZG3G8Z-Hewg",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-011",
+      "title": "He-Man Protects a Giant",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "vN8DlgYT2P0",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-012",
+      "title": "Island of Fear",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "hot1NmosX8A",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-013",
+      "title": "He-Man's Fan Joins the Guardians",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Jv-m4-eBrXg",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-014",
+      "title": "The Bargain with Evil",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "TBrgvs7nkXw",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-015",
+      "title": "Capture the Comet Keeper",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "pO2Y9Ln7U7E",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-016",
+      "title": "Attack from Below",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Rtf3cEv-LqE",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-017",
+      "title": "Not So Blind",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "1TNqSQ1yz5o",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-018",
+      "title": "Travelling to Another Dimension",
+      "year": 1983,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "he-man and the masters of the universe",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "He-Man and the Masters of the Universe",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "URu3fdSZVfU",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-019",
+      "title": "Adventures of Sonic — Episode 1",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "W9hZB0799kM",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-020",
+      "title": "Pseudo Sonic",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "SPCYy5CKd2g",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-021",
+      "title": "Musta Been a Beautiful Baby",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "35oGfiMCSIU",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-022",
+      "title": "Tails' New Home",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "FMyoR9QomFQ",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-023",
+      "title": "High-Stakes Sonic",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "WZ0BuEcxdmk",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-024",
+      "title": "Sonic's Song",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "t4jlP_oBngg",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-025",
+      "title": "The Magic Hassle",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "yQ24cqf3ipY",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-026",
+      "title": "The Last Resort",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "rUHkS_hqS6M",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-027",
+      "title": "Prehistoric Sonic",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "HBKImyFzsZ4",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-028",
+      "title": "Magnificent Sonic",
+      "year": 1993,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "adventures of sonic the hedgehog",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Adventures of Sonic the Hedgehog",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "zuCvZHHn_rw",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-029",
+      "title": "Good Cat, Bad Cat",
+      "year": 1988,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "garfield and friends",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Garfield and Friends",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Eucj9Z7T5eI",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-030",
+      "title": "Star Struck",
+      "year": 1988,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "garfield and friends",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Garfield and Friends",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "c5MLXpN8-2E",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-031",
+      "title": "Cat vs. Snow",
+      "year": 1988,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "garfield and friends",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Garfield and Friends",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fes_mcrcpNA",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-032",
+      "title": "Odielocks and the Three Cats",
+      "year": 1988,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "garfield and friends",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Garfield and Friends",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "qeSbf3Fdplw",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-033",
+      "title": "Catch As Cats Can't",
+      "year": 1988,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "garfield and friends",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Garfield and Friends",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "1nSDxdocN4Y",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-034",
+      "title": "Mush Rumors / The Ugly Mermaid",
+      "year": 1990,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "the adventures of super mario bros. 3",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "The Adventures of Super Mario Bros. 3",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AMoEDRnuIlg",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-035",
+      "title": "The Venice Menace",
+      "year": 1990,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "the adventures of super mario bros. 3",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "The Adventures of Super Mario Bros. 3",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "-3CAjEQDInc",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-036",
+      "title": "Dadzilla / Tag Team Trouble",
+      "year": 1990,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "the adventures of super mario bros. 3",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "The Adventures of Super Mario Bros. 3",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uZ2XMDEA3Fc",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-037",
+      "title": "Book of Power",
+      "year": 1985,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "m.a.s.k.",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "M.A.S.K.",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "mZoZoSNzIiI",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-038",
+      "title": "Highway to Terror",
+      "year": 1985,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "m.a.s.k.",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "M.A.S.K.",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "nGC7i0WP8dA",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-039",
+      "title": "The Real Ghostbusters",
+      "year": 1986,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "the real ghostbusters",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "The Real Ghostbusters",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "QOHA5dzKuCA",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-040",
+      "title": "Return of the Technodrome",
+      "year": 1987,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "teenage mutant ninja turtles",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Teenage Mutant Ninja Turtles",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "CJDBuCBCh_A",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-041",
+      "title": "Bye, Bye, Fly",
+      "year": 1987,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "teenage mutant ninja turtles",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Teenage Mutant Ninja Turtles",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "2uQHyeJoAHk",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-042",
+      "title": "Cowabunga Shredhead",
+      "year": 1987,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "teenage mutant ninja turtles",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Teenage Mutant Ninja Turtles",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "YDY7Vd9vxGQ",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-043",
+      "title": "Four Turtles and a Baby",
+      "year": 1987,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "teenage mutant ninja turtles",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Teenage Mutant Ninja Turtles",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "OeJAFtGeAJA",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-044",
+      "title": "Season One Turtle Power",
+      "year": 1987,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "teenage mutant ninja turtles",
+        "1980s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Teenage Mutant Ninja Turtles",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "cA5yaZ4f8jI",
+          "status": "playable",
+          "sourceLabel": "YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-045",
+      "title": "The Eds Are Coming",
+      "year": 1999,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "ed, edd n eddy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Ed, Edd n Eddy",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "X-HRLChOTOA",
+          "status": "playable",
+          "sourceLabel": "Cartoon Network · YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-046",
+      "title": "Read All About Ed",
+      "year": 1999,
+      "type": "cartoon",
+      "runtimeMinutes": 11,
+      "tags": [
+        "cartoon",
+        "ed, edd n eddy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Ed, Edd n Eddy",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Tc0rHaoP7HY",
+          "status": "playable",
+          "sourceLabel": "Cartoon Cartoons · YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-047",
+      "title": "Nagged to Ed",
+      "year": 1999,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "ed, edd n eddy",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Ed, Edd n Eddy",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "srtbNR8AhPE",
+          "status": "playable",
+          "sourceLabel": "Cartoon Cartoons · YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-048",
+      "title": "Part-Time Job",
+      "year": 1997,
+      "type": "cartoon",
+      "runtimeMinutes": 11,
+      "tags": [
+        "cartoon",
+        "cow and chicken",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "Cow and Chicken",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "FN6eP63HhvI",
+          "status": "playable",
+          "sourceLabel": "Cartoon Cartoons · YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-049",
+      "title": "Bubblevicious / The Bare Facts",
+      "year": 1998,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "the powerpuff girls",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "The Powerpuff Girls",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "c0KlvkCKpE4",
+          "status": "playable",
+          "sourceLabel": "Cartoon Network · YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    },
+    {
+      "id": "CN-050",
+      "title": "Moral Decay / Meet the Beat Alls",
+      "year": 1998,
+      "type": "cartoon",
+      "runtimeMinutes": 22,
+      "tags": [
+        "cartoon",
+        "the powerpuff girls",
+        "1990s"
+      ],
+      "attributes": {
+        "baseValue": 1,
+        "series": "The Powerpuff Girls",
+        "channelFits": [
+          "Cartoon Network"
+        ]
+      },
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "O9Nw51J1r8E",
+          "status": "playable",
+          "sourceLabel": "Cartoon Network · YouTube",
+          "lastVerifiedAt": null
+        }
+      ]
+    }
+  ]
+}
