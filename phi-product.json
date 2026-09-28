@@ -1,0 +1,83 @@
+{
+  "schema": "phi-product/v1",
+  "name": "Infinity TV Network",
+  "repo": "www-infinity4/Channel-Creatir",
+  "productionUrl": "https://www-infinity4.github.io/Channel-Creatir/",
+  "priority": 1,
+  "automation": {
+    "monitor": "https://monitor-phi.marvaseater.workers.dev",
+    "mode": "continuous-observe-diagnose-repair-verify",
+    "specialists": [
+      "intent-reader",
+      "repo-reader",
+      "runtime-sensor",
+      "media-sensor",
+      "data-sensor",
+      "wallet-sensor",
+      "schedule-sensor",
+      "router",
+      "catalog-writer",
+      "integration-writer",
+      "independent-verifier"
+    ],
+    "completionGate": "verification-required"
+  },
+  "pipeline": [
+    "catalog",
+    "grader",
+    "scheduler",
+    "tv-database",
+    "channel-reader",
+    "player",
+    "fallback"
+  ],
+  "channels": [
+    "BET",
+    "Cinemax",
+    "HBO",
+    "Starz",
+    "Encore",
+    "Showtime",
+    "Cartoon Network",
+    "Hermit TV",
+    "Star Launcher"
+  ],
+  "checks": [
+    {
+      "id": "catalog-playability",
+      "expect": "scheduled entries have verified playable full-program sources"
+    },
+    {
+      "id": "coverage",
+      "expect": "enough unique playable inventory for requested schedule without premature repeats"
+    },
+    {
+      "id": "schedule-integrity",
+      "expect": "no overlap, gaps, duplicate IDs, or invalid timing"
+    },
+    {
+      "id": "now-endpoint",
+      "expect": "Cloudflare /v1/now/:channel returns valid current program and elapsed offset"
+    },
+    {
+      "id": "reader",
+      "expect": "connected channels consume central now response and retain local fallback"
+    },
+    {
+      "id": "media",
+      "expect": "actual scheduled media plays in-page and belongs to the requested channel"
+    },
+    {
+      "id": "advance",
+      "expect": "next program starts correctly when current program ends"
+    },
+    {
+      "id": "wallet",
+      "expect": "shared unified wallet is used; no divergent channel-local balance"
+    },
+    {
+      "id": "signin-transfer",
+      "expect": "ownership/sign-in boundary exists before user-to-user value transfer is treated as complete"
+    }
+  ]
+}
