@@ -6,93 +6,11 @@
     "Never mark playable solely because an ID exists.",
     "Verify that the source is a full usable program rather than a trailer or short preview.",
     "Keep the catalog record if a source fails; quarantine/replace the source instead.",
-    "Record verification time and provenance when promoted to playable."
+    "Record verification time and provenance when promoted to playable.",
+    "Previously aired/recently scheduled titles remain indexed but are excluded from the new-program refresh pool.",
+    "A refresh search must prefer genuinely new-to-rotation titles before reconsidering any recently aired title."
   ],
   "items": [
-    {
-      "catalogId": "MOV-0080",
-      "title": "The Dark Crystal",
-      "year": 1982,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "4XMRm9igLGo",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
-    {
-      "catalogId": "MOV-0081",
-      "title": "Labyrinth",
-      "year": 1986,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "lL_Q0VtrTxU",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
-    {
-      "catalogId": "MOV-0075",
-      "title": "Masters of the Universe",
-      "year": 1987,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "NTG2PESRurY",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
-    {
-      "catalogId": "MOV-0078",
-      "title": "RoboCop",
-      "year": 1987,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "ZHv_r0DfkD4",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
     {
       "catalogId": "MOV-0086",
       "title": "Return of the Living Dead Part II",
@@ -112,91 +30,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
-    },
-    {
-      "catalogId": "MOV-0076",
-      "title": "UHF",
-      "year": 1989,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
       ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "uAiyO8oEG4E",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
-    {
-      "catalogId": "MOV-0082",
-      "title": "Bill & Ted's Excellent Adventure",
-      "year": 1989,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "a72W8hP9QNE",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
-    {
-      "catalogId": "MOV-0077",
-      "title": "Terminator 2: Judgment Day",
-      "year": 1991,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "AmfdVc_QMbA",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
-    },
-    {
-      "catalogId": "MOV-0083",
-      "title": "Bill & Ted's Bogus Journey",
-      "year": 1991,
-      "type": "movie",
-      "priority": 7,
-      "reasons": [
-        "existing-curated-inventory",
-        "catalog-expansion",
-        "target-era-1980s-1990s",
-        "strong-channel-programming-fit"
-      ],
-      "sources": [
-        {
-          "provider": "youtube",
-          "sourceId": "2nwyLnPj6SI",
-          "sourceLabel": "YouTube Movies",
-          "status": "verify"
-        }
-      ]
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0055",
@@ -217,7 +53,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0084",
@@ -238,7 +76,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0057",
@@ -259,7 +99,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0085",
@@ -280,7 +122,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0088",
@@ -300,7 +144,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0079",
@@ -320,7 +166,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0054",
@@ -340,7 +188,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0087",
@@ -360,7 +210,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0061",
@@ -380,7 +232,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0041",
@@ -400,7 +254,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0058",
@@ -420,7 +276,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0063",
@@ -440,7 +298,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0059",
@@ -460,7 +320,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0047",
@@ -480,7 +342,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0044",
@@ -500,7 +364,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0045",
@@ -520,7 +386,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0048",
@@ -540,7 +408,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0066",
@@ -560,7 +430,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0067",
@@ -580,7 +452,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0065",
@@ -600,7 +474,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0049",
@@ -620,7 +496,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0042",
@@ -640,7 +518,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0046",
@@ -660,7 +540,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0062",
@@ -680,7 +562,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0056",
@@ -699,7 +583,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0040",
@@ -718,7 +604,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0064",
@@ -737,7 +625,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0043",
@@ -756,7 +646,9 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
     },
     {
       "catalogId": "MOV-0060",
@@ -775,7 +667,201 @@
           "sourceLabel": "YouTube Movies",
           "status": "verify"
         }
-      ]
+      ],
+      "rotationState": "candidate",
+      "eligibleForRefresh": true
+    },
+    {
+      "catalogId": "MOV-0080",
+      "title": "The Dark Crystal",
+      "year": 1982,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "4XMRm9igLGo",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0081",
+      "title": "Labyrinth",
+      "year": 1986,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "lL_Q0VtrTxU",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0075",
+      "title": "Masters of the Universe",
+      "year": 1987,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "NTG2PESRurY",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0078",
+      "title": "RoboCop",
+      "year": 1987,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ZHv_r0DfkD4",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0076",
+      "title": "UHF",
+      "year": 1989,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uAiyO8oEG4E",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0082",
+      "title": "Bill & Ted's Excellent Adventure",
+      "year": 1989,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "a72W8hP9QNE",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0077",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AmfdVc_QMbA",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
+    },
+    {
+      "catalogId": "MOV-0083",
+      "title": "Bill & Ted's Bogus Journey",
+      "year": 1991,
+      "type": "movie",
+      "priority": -1000,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit",
+        "recently-aired-exclusion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "2nwyLnPj6SI",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ],
+      "rotationState": "recently-aired",
+      "eligibleForRefresh": false
     }
   ]
 }
