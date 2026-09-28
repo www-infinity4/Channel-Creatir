@@ -1,0 +1,781 @@
+{
+  "schema": "infinity-source-verification-queue-v1",
+  "purpose": "Petra Phi growth queue: indexed programs awaiting playback-source verification before live scheduling.",
+  "generatedFrom": "catalog/movies.json",
+  "rules": [
+    "Never mark playable solely because an ID exists.",
+    "Verify that the source is a full usable program rather than a trailer or short preview.",
+    "Keep the catalog record if a source fails; quarantine/replace the source instead.",
+    "Record verification time and provenance when promoted to playable."
+  ],
+  "items": [
+    {
+      "catalogId": "MOV-0080",
+      "title": "The Dark Crystal",
+      "year": 1982,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "4XMRm9igLGo",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0081",
+      "title": "Labyrinth",
+      "year": 1986,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "lL_Q0VtrTxU",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0075",
+      "title": "Masters of the Universe",
+      "year": 1987,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "NTG2PESRurY",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0078",
+      "title": "RoboCop",
+      "year": 1987,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ZHv_r0DfkD4",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0086",
+      "title": "Return of the Living Dead Part II",
+      "year": 1988,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "J-52ztSF-8A",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0076",
+      "title": "UHF",
+      "year": 1989,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uAiyO8oEG4E",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0082",
+      "title": "Bill & Ted's Excellent Adventure",
+      "year": 1989,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "a72W8hP9QNE",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0077",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "AmfdVc_QMbA",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0083",
+      "title": "Bill & Ted's Bogus Journey",
+      "year": 1991,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "2nwyLnPj6SI",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0055",
+      "title": "Stargate",
+      "year": 1994,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "lsuY5dYxOCs",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0084",
+      "title": "Highlander: The Final Dimension",
+      "year": 1994,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "-RaNjt3NJw8",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0057",
+      "title": "Clueless",
+      "year": 1995,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fajG1C0xj9c",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0085",
+      "title": "Waiting for Guffman",
+      "year": 1996,
+      "type": "movie",
+      "priority": 7,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "9mdSMAmzo34",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0088",
+      "title": "Deathtrap",
+      "year": 1982,
+      "type": "movie",
+      "priority": 5,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "t9w1izfm9qI",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0079",
+      "title": "The Karate Kid",
+      "year": 1984,
+      "type": "movie",
+      "priority": 5,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "-slifyirmX0",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0054",
+      "title": "Sneakers",
+      "year": 1992,
+      "type": "movie",
+      "priority": 5,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "Qy9XYQBBIJ4",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0087",
+      "title": "Michael Collins",
+      "year": 1996,
+      "type": "movie",
+      "priority": 5,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "KMwQDqiHCAQ",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0061",
+      "title": "Payback",
+      "year": 1999,
+      "type": "movie",
+      "priority": 5,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "target-era-1980s-1990s"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "naG_MI5dsbo",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0041",
+      "title": "Mean Girls",
+      "year": 2004,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "HPkDFc8hq5c",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0058",
+      "title": "The Longest Yard",
+      "year": 2005,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "uGJv_zSRiR0",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0063",
+      "title": "Assault on Precinct 13",
+      "year": 2005,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "mKqIlKhS0YE",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0059",
+      "title": "Wanted",
+      "year": 2008,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "bdEqvgVSI2Y",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0047",
+      "title": "Beyond a Reasonable Doubt",
+      "year": 2009,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "L9AQELWJkFA",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0044",
+      "title": "Skyline",
+      "year": 2010,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "DXf-NpZuCZ8",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0045",
+      "title": "Blitz",
+      "year": 2011,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "EMvIgNcej-w",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0048",
+      "title": "Are You Here",
+      "year": 2013,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "6f2YlLBqclo",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0066",
+      "title": "Rage",
+      "year": 2014,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "_MRTR3VGhfc",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0067",
+      "title": "Stephen King's A Good Marriage",
+      "year": 2014,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "VGW1ShX2_hU",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0065",
+      "title": "Survivor",
+      "year": 2015,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "fzfMsnqD-yM",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0049",
+      "title": "Mad Families",
+      "year": 2017,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "8jyuUeCiWEk",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0042",
+      "title": "Honest Thief",
+      "year": 2020,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "BqluXcZ9RyU",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0046",
+      "title": "Alone",
+      "year": 2020,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "69C1s6oMs64",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0062",
+      "title": "Ava",
+      "year": 2020,
+      "type": "movie",
+      "priority": 4,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion",
+        "strong-channel-programming-fit"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "CvZC1dy3LsQ",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0056",
+      "title": "Crouching Tiger, Hidden Dragon",
+      "year": 2000,
+      "type": "movie",
+      "priority": 2,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "SAGdBlJrMSA",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0040",
+      "title": "Serenity",
+      "year": 2005,
+      "type": "movie",
+      "priority": 2,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "WPXS9UtDmyQ",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0064",
+      "title": "The Fog",
+      "year": 2005,
+      "type": "movie",
+      "priority": 2,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "J2UYk9HPz28",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0043",
+      "title": "World Trade Center",
+      "year": 2006,
+      "type": "movie",
+      "priority": 2,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "KVk4ATEGb8Q",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    },
+    {
+      "catalogId": "MOV-0060",
+      "title": "Zodiac",
+      "year": 2007,
+      "type": "movie",
+      "priority": 2,
+      "reasons": [
+        "existing-curated-inventory",
+        "catalog-expansion"
+      ],
+      "sources": [
+        {
+          "provider": "youtube",
+          "sourceId": "ZNOHCuF1Vns",
+          "sourceLabel": "YouTube Movies",
+          "status": "verify"
+        }
+      ]
+    }
+  ]
+}
