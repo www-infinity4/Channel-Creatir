@@ -76,3 +76,78 @@ https://www-infinity4.github.io/Control-Phi/channels.json
 ```
 
 That registry is the source of truth for the channel hamburger and network guide. There should not be a separately maintained channel list in each generated station.
+
+
+## Shared catalog and Cloudflare scheduler
+
+Channel Creatir is also the programming source of truth for the live Infinity TV network. Channels should not each maintain a separate authoritative weekly movie list.
+
+The current programming path is:
+
+```text
+Petra Phi index
+    ↓
+shared catalog + explainable discovery grader
+    ↓
+Channel Creatir scheduler
+    ↓
+Cloudflare tv-database
+    ↓
+GET /v1/now/:channel
+    ↓
+channel-reader.js
+    ↓
+channel player
+    ↓
+local fallback if the central path is unavailable
+```
+
+The shared catalog currently separates **discovery** from **playability**. A useful movie, cartoon, fight, documentary, or other program may remain indexed while its playback source is being verified. Only a source marked `playable` is eligible for a live schedule.
+
+Catalog files live under `catalog/`. Scheduler contracts and logic live under `scheduler/`. Reader documentation lives at `docs/channel-reader.md`.
+
+### Channel readers
+
+The reader is intentionally thin. It asks Cloudflare what is airing now and joins that program at the correct elapsed offset. It does not independently reshuffle the central catalog.
+
+Connected channel readers currently include BET, Cinemax, HBO, Starz, Encore, Showtime, Cartoon Network, Hermit TV, and Star Launcher.
+
+The local channel engine remains a safety fallback. A missing central response, invalid source, or scheduler outage must not turn a working channel into a blank screen.
+
+### Programming signals
+
+The scheduler can accept normalized programming-interest signals such as movie research, fight interest, music listening, topic interest, seasonality, and other useful Quanta Phi-derived metadata.
+
+Signals influence relevance. They do not erase the catalog or destroy accumulated metadata. Selection reasons should remain inspectable.
+
+## Petra Phi — the growing index medium
+
+**Petra Phi is about soil health.**
+
+For the Infinity architecture, Petra Phi is the planting medium used to build indexes that grow rather than become stale. A healthy Petra Phi index preserves useful identity and context while allowing new discoveries, metadata, verification, relationships, and relevance signals to enrich it over time.
+
+Practical Petra Phi rules:
+
+- preserve stable catalog identity even when a source changes;
+- keep provenance and verification state;
+- separate indexed knowledge from current playback availability;
+- allow records to become richer instead of repeatedly replacing them;
+- retain tags and relationships that allow later searches and signals to find them;
+- quarantine stale sources without throwing away the underlying program;
+- record why the grader or scheduler considered something useful.
+
+## Terra Phi — whole-system deployment quality
+
+**Terra Phi is about the full Earth and whole-system perfection.**
+
+In this architecture it is the quality standard applied across a deployment. A successful commit is not enough by itself. Catalog, grader, scheduler, Cloudflare service, reader, player, timing, and fallback behavior have to operate coherently as one system.
+
+For Channel Creatir, the Terra Phi check is therefore the complete path:
+
+```text
+catalog → grader → scheduler → Cloudflare → reader → player → fallback
+```
+
+A deployment should preserve correct source identity, correct schedule timing, channel fit, inspectable selection reasons, recoverability, and consistent reader behavior.
+
+**Petra Phi governs how the index grows. Terra Phi governs whether the complete deployed system deserves to be trusted.**
